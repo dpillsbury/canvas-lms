@@ -253,10 +253,11 @@ class OutcomesApiController < ApplicationController
   #              "display_name": "Title for reporting",
   #              "description": "Outcome description",
   #              "vendor_guid": "customid9001",
-  #              "mastery_points": 3,
+  #              "mastery_points": 1,
   #              "ratings": [
-  #                { "description": "Exceeds Expectations", "points": 5 },
-  #                { "description": "Meets Expectations", "points": 3 },
+  #                { "description": "Exceeds Expectations", "points": 3 },
+  #                { "description": "Meets Expectations", "points": 2 },
+  #                { "description": "Developing", "points": 1 },
   #                { "description": "Does Not Meet Expectations", "points": 0 }
   #              ]
   #            }' \
